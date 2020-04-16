@@ -13,7 +13,7 @@ https://www.ruby-lang.org/ja/about/
 
 ```ruby
 "I love Ruby."
-# => "I love Ruby."
+=> "I love Ruby."
 ```
 
 文字列の"I love Ruby."を表すオブジェクトを作成しました。`#`の次にあるのはそのオブジェクトがRubyからどう見えているのかを示しています。この場合、文字列の中身がそのまま出力されていますね。
@@ -26,7 +26,7 @@ https://www.ruby-lang.org/ja/about/
 
 ```ruby
 "I love Ruby.".length
-# => 12
+=> 12
 ```
 
 ここでは文字列である"I love Ruby."の長さを取得しています。正しい結果が取得できたようですね。
@@ -35,7 +35,7 @@ https://www.ruby-lang.org/ja/about/
 
 ```ruby
 "I love Ruby.".sub('Ruby', 'programming')
-# => "I love programming."
+=> "I love programming."
 ```
 
 ここで`sub`の後ろの括弧の中にあるものを「引数（ひきすう）」と呼びます。引数についてはメソッド定義の章で詳しく説明します。
@@ -44,14 +44,14 @@ https://www.ruby-lang.org/ja/about/
 
 ```ruby
 "I love Ruby." + " I also love Python."
-# => "I love Ruby. I also love Python."
+=> "I love Ruby. I also love Python."
 ```
 
 文字列は減算できません。
 
 ```ruby
 "I love Ruby." - "I"
-# => エラー
+=> エラー
 ```
 
 このように、オブジェクトごとに応答できる命令は決まっています。ここでオブジェクトの「種類」が問題になってきます。
@@ -62,9 +62,9 @@ https://www.ruby-lang.org/ja/about/
 
 ```ruby
 "I love Ruby."
-# => "I love Ruby."
+=> "I love Ruby."
 " I love programming."
-# => " I love programming."
+=> " I love programming."
 ```
 
 どちらも「文字列」であるのがわかるかと思います。これらは「種類」が同じオブジェクトである、とも言えますね。ここでオブジェクトの種類のことを「クラス」と呼びます。文字列は正式には`String`クラスと呼ばれます。
@@ -73,7 +73,7 @@ https://www.ruby-lang.org/ja/about/
 
 ```ruby
 "I love Ruby.".class
-# => String
+=> String
 ```
 
 一般に、クラスが同じオブジェクトなら同じメソッドに応答することができます。
