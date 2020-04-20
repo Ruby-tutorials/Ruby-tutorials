@@ -28,7 +28,7 @@ puts "I love programming.".length
 
 他のプログラミング言語では、組み込みのクラスにメソッドを追加することはできない場合が多いですが、Rubyでは可能です。これを「オープンクラス」と呼びます。
 
-では、便利なメソッドを`String`クラスに追加します。以下のコードを実行してみましょう。
+では、便利なメソッドを`String`クラスに追加します。以下のコードを`string_first.rb`という名前のファイルに保存し、`ruby string_first.rb`で実行してみましょう。
 
 ```ruby
 class String
